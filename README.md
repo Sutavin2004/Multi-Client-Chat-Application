@@ -51,6 +51,24 @@ cd Python-Chatroom
 No external dependencies are required, as this project only uses Python's built-in modules.
 
 # Usage
+
+### Selecting TCP or UDP Mode
+For TCP: Modify client.py and server.py to use:
+
+```python
+from chatroom import ClientTCP
+```
+```python
+from chatroom import ServerTCP
+```
+For UDP: Modify client.py and server.py to use:
+
+```python
+from chatroom import ClientUDP
+```
+```python
+from chatroom import ServerUDP
+```
 ### Running the TCP Server
 Start the TCP server on port 12345:
 
